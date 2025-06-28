@@ -131,9 +131,6 @@ while True:
         max_expense_category = df[df['Transaction Type'] == 'Expense'].loc[lambda x: x['Amount'].idxmax()]
         print(f"Your highest expense is {max_expense_category['Amount']} in {max_expense_category['Category']} category")
 
-
-
-
     elif user_input == 5:
         break
 
